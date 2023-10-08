@@ -1,4 +1,100 @@
-<div *ngFor="let employee of employees">
-    <div>{{employee.name}}</div>
-  
+
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<header class="header-area overlay">
+    <nav class="navbar navbar-expand-md navbar-dark">
+		<div class="container">
+			<a href="#" class="navbar-brand">Bootdey.com</a>
+			
+			<button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main-nav">
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+				<span class="menu-icon-bar"></span>
+			</button>
+			
+			<div id="main-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li><a href="#" class="nav-item nav-link active">Home</a></li>
+					<li><a href="#" class="nav-item nav-link">About Us</a></li>
+					<li class="dropdown">
+						<a href="#" class="nav-item nav-link" data-toggle="dropdown">Services</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Dropdown Item 1</a>
+							<a href="#" class="dropdown-item">Dropdown Item 2</a>
+							<a href="#" class="dropdown-item">Dropdown Item 3</a>
+						</div>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="nav-item nav-link" data-toggle="dropdown">Portfolio</a>
+						<div class="dropdown-menu">
+							<a href="#" class="dropdown-item">Dropdown Item 1</a>
+							<a href="#" class="dropdown-item">Dropdown Item 2</a>
+							<a href="#" class="dropdown-item">Dropdown Item 3</a>
+							<a href="#" class="dropdown-item">Dropdown Item 4</a>
+							<a href="#" class="dropdown-item">Dropdown Item 5</a>
+						</div>
+					</li>
+					<li><a href="#" class="nav-item nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<div class="banner">
+		<div class="container">
+			<h1>Bootstrap 4 Navbar</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie.</p>
+			<a href="#content" class="button button-primary">Learn More</a>
+		</div>
+	</div>
+</header>
+
+<main>
+	<section id="content" class="content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta nulla. </p>
+				</div>
+				<div class="col-md-4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta nulla. </p>
+				</div>
+				<div class="col-md-4">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec elit ex. Etiam elementum lectus et tempor molestie. Pellentesque vestibulum dui sit amet dui volutpat sollicitudin. Etiam non erat finibus, iaculis nunc vel, convallis eros. Etiam efficitur tempor dui, vitae fringilla ipsum tristique quis. Aliquam erat volutpat. Cras ullamcorper ex et viverra vulputate. Nam lectus ligula, pretium nec risus nec, ultricies fringilla mauris. Proin quis venenatis neque, iaculis porta nulla. </p>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 col-xl-3">
+            <div class="card m-b-30">
+                <div class="card-body row">
+                    <div class="col-6">
+                        <a href=""><img src="https://bootdey.com/img/Content/avatar/avatar3.png" alt="" class="img-fluid rounded-circle w-60"></a>
+                    </div>
+                    <div class="col-6 card-title align-self-center mb-0">
+                        <h5>Lily J. Ford</h5>
+                        <p class="m-0">Graphics Designer</p>
+                    </div>
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"><i class="fa fa-envelope float-right"></i>Email : <a href="#">PaulGoyette@gmail.com</a></li>
+                    <li class="list-group-item"><i class="fa fa-phone float-right"></i>Phone : 000 123-456</li>
+                </ul>
+                <div class="card-body">
+                    <div class="float-right btn-group btn-group-sm">
+                        <a href="#" class="btn btn-primary tooltips" data-placement="top" data-toggle="tooltip" data-original-title="Edit"><i class="fa fa-pencil"></i> </a>
+                        <a href="#" class="btn btn-secondary tooltips" data-placement="top" data-toggle="tooltip" data-original-title="Delete"><i class="fa fa-times"></i></a>
+                    </div>
+                    <ul class="social-links list-inline mb-0">
+                        <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Facebook"><i class="fa fa-facebook-f"></i></a></li>
+                        <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Twitter"><i class="fa fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a title="" data-placement="top" data-toggle="tooltip" class="tooltips" href="" data-original-title="Skype"><i class="fa fa-skype"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

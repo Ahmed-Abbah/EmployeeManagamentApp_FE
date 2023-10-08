@@ -8,13 +8,14 @@ import { Employee } from './Employee';
   providedIn: 'root'
 })
 export class EmployeeService {
-  private apiServiceUrl="";
+  private apiServiceUrl="http://localhost:9999";
 
   constructor(private http : HttpClient) {}
 
   public getEmployees():Observable<Employee[]>{
-    return this.http.get<Employee[]>(`${this.apiServiceUrl}/employee/all`) ;
+    return this.http.get<Employee[]>("http://localhost:9999/employee/all") ;
   }
+  
 
   public addEmployees(employee : Employee):Observable<Employee>{
     return this.http.post<Employee>(`${this.apiServiceUrl}/employee/add`,employee) ;
